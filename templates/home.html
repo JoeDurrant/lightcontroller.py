@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Energenie plug controller</title>
+	</head>
+	
+	<body>
+		<form action="/lightson/" method="post">
+			<button name="lightson" type="submit">Lights on</button>
+		</form>
+
+		<form action="/lightsoff/" method="post">
+			<button name="lightsoff" type="submit">Lights off</button>
+		</form>
+
+		<form action="/treeon/" method="post">
+			<button name="treeon" type="submit">Tree on</button>
+		</form>
+
+		<form action="/treeoff/" method="post">
+			<button name="treeoff" type="submit">Tree off</button>
+		</form>
+		
+		<h3>{{ message }}</h3>
+	</body>
+<html>
